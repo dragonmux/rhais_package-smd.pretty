@@ -261,7 +261,15 @@
 		)
 		(uuid "30e07a83-a682-4d3a-9971-4711bbd01f6b")
 	)
-	(pad "1" smd custom
+	(pad "2" smd trapezoid
+		(at -0.24 0)
+		(size 0.259808 0.15)
+		(rect_delta -0.15 0)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "c7c5fb1b-5093-4ab3-8862-10ff3aaba120")
+	)
+	(pad "3" smd custom
 		(at -0.3 0.415 180)
 		(size 0.4 0.07)
 		(layers "F.Cu" "F.Mask")
@@ -281,27 +289,7 @@
 		)
 		(uuid "24d39791-7d57-453f-8a1d-9ad209519ba1")
 	)
-	(pad "1" smd custom
-		(at 0.3 -0.415)
-		(size 0.4 0.07)
-		(layers "F.Cu" "F.Mask")
-		(thermal_bridge_angle 45)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives
-			(gr_poly
-				(pts
-					(xy 0.2 0.265) (xy 0.2 -0.035) (xy -0.2 -0.035) (xy -0.2 0.035)
-				)
-				(width 0)
-				(fill yes)
-			)
-		)
-		(uuid "692cc99a-3a30-4b7d-b76e-13451b7bd9a3")
-	)
-	(pad "1" smd custom
+	(pad "4" smd custom
 		(at 0.3 0.415 180)
 		(size 0.4 0.07)
 		(layers "F.Cu" "F.Mask")
@@ -321,14 +309,6 @@
 		)
 		(uuid "053a5bae-01cd-4d7b-aaca-f5cf2a588f22")
 	)
-	(pad "2" smd trapezoid
-		(at -0.24 0)
-		(size 0.259808 0.15)
-		(rect_delta -0.15 0)
-		(layers "F.Cu" "F.Mask")
-		(thermal_bridge_angle 45)
-		(uuid "c7c5fb1b-5093-4ab3-8862-10ff3aaba120")
-	)
 	(pad "5" smd trapezoid
 		(at 0.24 0)
 		(size 0.259808 0.15)
@@ -336,6 +316,26 @@
 		(layers "F.Cu" "F.Mask")
 		(thermal_bridge_angle 45)
 		(uuid "50bc7848-0bc7-43b4-8291-d900d54be0f1")
+	)
+	(pad "6" smd custom
+		(at 0.3 -0.415)
+		(size 0.4 0.07)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.2 0.265) (xy 0.2 -0.035) (xy -0.2 -0.035) (xy -0.2 0.035)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "692cc99a-3a30-4b7d-b76e-13451b7bd9a3")
 	)
 	(embedded_fonts no)
 	(model "${DXMON_3DMOD}/SOT1255-2.step"
