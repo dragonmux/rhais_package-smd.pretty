@@ -1,0 +1,222 @@
+(footprint "SOT-563"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c23274ee-4824-4d3b-9928-706db2d7cdd6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SOT-563"
+		(at 0 1.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a4b4b231-36b9-4c53-8c87-ded4cc1833c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58d8c758-00f8-449d-82a1-767340f6e49a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47a9a91d-7163-490d-bfa7-d4ef2e873905")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(solder_mask_margin 0.05)
+	(attr smd)
+	(fp_line
+		(start -0.6 0.9)
+		(end 0.6 0.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a45031a3-e6fa-4cf3-b68b-ff189cf79fc0")
+	)
+	(fp_line
+		(start 0.6 -0.85)
+		(end -1.25 -0.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7347dea8-5f28-4a46-9f5d-5f8889673b92")
+	)
+	(fp_line
+		(start -1.55 -1.2)
+		(end 1.55 -1.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e111dd3b-6cb9-4f24-a7e0-b8e3b8e34def")
+	)
+	(fp_line
+		(start -1.55 1.2)
+		(end -1.55 -1.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f1839069-f159-4545-b94a-7b35a3753984")
+	)
+	(fp_line
+		(start 1.55 -1.2)
+		(end 1.55 1.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "cfa84ca8-bd38-453a-818d-c3a1c20abebe")
+	)
+	(fp_line
+		(start 1.55 1.2)
+		(end -1.55 1.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c8a6d915-673b-4651-b6a4-5bf18b11e9cb")
+	)
+	(fp_line
+		(start -0.6 -0.3)
+		(end -0.6 0.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "85a2eeeb-e89c-490e-a26b-cffb1d1cd0be")
+	)
+	(fp_line
+		(start -0.6 0.85)
+		(end 0.6 0.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c18ae8bb-6c94-4737-8489-86b8293d8273")
+	)
+	(fp_line
+		(start -0.1 -0.8)
+		(end -0.6 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c49727ac-164e-4c29-b453-22c345936594")
+	)
+	(fp_line
+		(start 0.6 -0.8)
+		(end -0.1 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8b6235c2-4459-459a-a03a-8e4f47d3e0dc")
+	)
+	(fp_line
+		(start 0.6 0.85)
+		(end 0.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ba2ee687-9624-4b34-ae97-c64911081c14")
+	)
+	(pad "1" smd roundrect
+		(at -0.85 -0.5)
+		(size 0.8 0.22)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "1836c8e0-ee78-43c9-9d7c-6a55bfccad40")
+	)
+	(pad "2" smd roundrect
+		(at -0.85 0)
+		(size 0.8 0.22)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "914e7a3b-1103-406f-809d-8e1e55703f5e")
+	)
+	(pad "3" smd roundrect
+		(at -0.85 0.5)
+		(size 0.8 0.22)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "2cbe6c52-1cd0-4e51-a218-8fa4d258f3a1")
+	)
+	(pad "4" smd roundrect
+		(at 0.85 0.5)
+		(size 0.8 0.22)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "759d85db-84e2-471a-a341-3da5274b8d4e")
+	)
+	(pad "5" smd roundrect
+		(at 0.85 0)
+		(size 0.8 0.22)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "732397f2-6ebe-4a46-8a34-fd435f54a3b8")
+	)
+	(pad "6" smd roundrect
+		(at 0.85 -0.5)
+		(size 0.8 0.22)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "bd5d8d5b-fb09-4000-87d1-7336f149ab50")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-563.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
